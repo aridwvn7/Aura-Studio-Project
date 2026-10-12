@@ -55,7 +55,7 @@ const Contact = () => {
                         <div className=''>
                             <div>
                                 <label
-                                    For="name"
+                                    htmlFor="name"
                                     className="mb-3 block text-sm"
                                 >
                                     Your Name
@@ -74,7 +74,7 @@ const Contact = () => {
                             {/* Email */}
                             <div>
                                 <label
-                                    For="email"
+                                    htmlFor="email"
                                     className="mb-3 mt-3 block text-sm"
                                 >
                                     Email Address
@@ -93,7 +93,7 @@ const Contact = () => {
                             {/* Message */}
                             <div>
                                 <label
-                                    For="message"
+                                    htmlFor="message"
                                     className="mb-3 mt-3 block text-sm"
                                 >
                                     Tell us about your project

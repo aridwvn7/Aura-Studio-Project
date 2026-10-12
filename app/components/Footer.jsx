@@ -1,4 +1,4 @@
-"use client";
+
 
 const Footer = () => {
     return (
@@ -63,7 +63,7 @@ const Footer = () => {
 
             {/* Copyright */}
             <div className="mt-10 flex flex-col gap-2 border-t border-[#D9D2C7] pt-5 text-xs text-[#8A857C] sm:flex-row sm:items-center sm:justify-between md:text-[17px]">
-                <p> @ {new Date().getFullYear()}. Copyrights All rights reserved.</p>
+                <p> @ 2026. Copyrights All rights reserved.</p>
                 <p>Developed by <span className="text-[#c08a6e]">RDex Labs</span>.</p>
 
             </div>
