@@ -43,12 +43,14 @@ const Contact = () => {
                     </div>
 
                     {/* Contact Form */}
-                    <form
+                    <form 
+                    action="https://formspree.io/f/xzedakdj"
+                    method='POST'
                         className="flex flex-col gap-6 rounded-2xl border border-[#D9D2C7] bg-white/60 p-6 transition-all duration-300 hover:border-[#C08A6E] hover:shadow-xl hover:shadow-[#C08A6E]/10 sm:p-8 md:p-10"
-                        onSubmit={(event) => {
-                            event.preventDefault();
-                            alert("Thank you for reaching out to Aura Studio!");
-                        }}
+                        // onSubmit={(event) => {
+                        //     event.preventDefault();
+                        //     alert("Thank you for reaching out to Aura Studio!");
+                        // }}
                     >
 
                         {/* Name */}

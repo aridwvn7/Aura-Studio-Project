@@ -29,7 +29,7 @@ const Footer = () => {
                     </a>
                 </nav>
 
-            
+
                 {/* Social Links */}
                 <div className="flex flex-wrap items-start gap-x-5 gap-y-6 text-sm text-[#777168] md: text-[17px]">
                     <a
@@ -52,12 +52,12 @@ const Footer = () => {
 
                     <a
                         href="#top"
-                        className="transition hover:text-[#C08A6E]"
+                        className="fixed bottom-15 mt-8 right-6 z-50 rounded-full border border-white/30 bg-white/70 px-5 py-3 text-sm text-[#2B2925] shadow-lg backdrop-blur-md transition hover:bg-[#C08A6E] hover:text-white md:bottom-15 md:right-8"
                     >
                         Back to Top ↑
                     </a>
                 </div>
-            
+
 
             </div>
 
